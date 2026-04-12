@@ -3,7 +3,7 @@
  * Plugin Name:          Portugal States (Distritos) for WooCommerce
  * Plugin URI:           https://www.webdados.pt/wordpress/plugins/portugal-states-distritos-woocommerce-wordpress/
  * Description:          This plugin adds the Portuguese "States", known as "Distritos", to WooCommerce and sets the correct address format for Portugal
- * Version:              5.0
+ * Version:              5.1
  * Author:               Naked Cat Plugins (by Webdados)
  * Author URI:           https://nakedcatplugins.com
  * Text Domain:          portugal-states-distritos-for-woocommerce
@@ -199,7 +199,7 @@ add_action(
 
 // Load the Ifthenpay recommendation.
 if ( ! defined( 'WEBDADOS_RECOMMEND_IFTHENPAY' ) ) {
-	require_once 'recommend-ifthenpay/class-recommend-ifthenpay.php';
+	require_once 'recommend-ifthenpay/recommend-ifthenpay.php';
 }
 
 /* If you’re reading this you must know what you’re doing ;-) Greetings from sunny Portugal! */
