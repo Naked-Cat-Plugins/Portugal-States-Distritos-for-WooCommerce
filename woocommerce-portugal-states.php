@@ -198,7 +198,7 @@ add_action(
 );
 
 // Load the Ifthenpay recommendation.
-if ( ! defined( 'WEBDADOS_RECOMMEND_IFTHENPAY' ) ) {
+if ( ! defined( 'NAKEDCAT_RECOMMEND_IFTHENPAY' ) ) {
 	require_once 'recommend-ifthenpay/recommend-ifthenpay.php';
 }
 
