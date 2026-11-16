@@ -27,13 +27,13 @@ Banner photo by [Nilo Velez](https://wordpress.org/photos/photo/13866332ac/).
 
 = Do your customers still write the full address details manually on the checkout? =
 
-Activate the automatic filling of the address details at the checkout, including street name and neighbourhood, based on the postal, avoiding incorrect data at the time of shipping, with our plugin [Portuguese Postcodes for WooCommerce](https://nakedcatplugins.com/product/portuguese-postcodes-for-woocommerce-technical-support/)
+Activate the automatic filling of the address details at the checkout, including street name and neighbourhood, based on the postal code, avoiding incorrect data at the time of shipping, with our plugin [Portuguese Postcodes for WooCommerce](https://nakedcatplugins.com/product/portuguese-postcodes-for-woocommerce-technical-support/)
 
 The Portuguese Postcodes plugin can also do a district-postcode cross validation on checkout and guarantee they match.
 
 = Are you already issuing automatic invoices on your WooCommerce store? =
 
-If not, get to know our new plugin: [Invoicing with InvoiceXpress for WooCommerce](https://wordpress.org/plugins/woo-billing-with-invoicexpress/)
+If not, get to know our plugin: [Invoicing with InvoiceXpress for WooCommerce](https://wordpress.org/plugins/woo-billing-with-invoicexpress/)
 
 = Other (premium) plugins =
 
@@ -43,14 +43,14 @@ Already know our other WooCommerce (premium) plugins?
 * [EU Guarantee Notice and GARAN Label for WordPress and WooCommerce](https://nakedcatplugins.com/product/eu-guarantee-notice-and-garan-label-for-wordpress-and-woocommerce/?utm_source=wordpress.org&utm_medium=link&utm_campaign=distritos_woocommerce_plugin) - Show the mandatory EU guarantee notice and the EU GARAN label with the official European Commission artwork, and let Proof of Notice check every day that the notice is still on your site
 * [Portuguese Postcodes for WooCommerce](https://nakedcatplugins.com/product/portuguese-postcodes-for-woocommerce-technical-support/) - Automatic filling of the address details at the checkout, including street name and neighborhood, based on the postal code
 * [Invoicing with InvoiceXpress for WooCommerce](https://invoicewoo.com/) - Automatically issue invoices directly from the WooCommerce order
-* [DPD Portugal for WooCommerce](https://nakedcatplugins.com/product/dpd-portugal-for-woocommerce/) - Create shipping and return guide in the DPD webservice directly from the WooCommerce order
-* [Feed KuantoKusta for WooCommerce](https://nakedcatplugins.com/product/feed-kuantokusta-for-woocommerce-pro/) - Publish your products on Kuanto Kusta with this easy to use feed generator
-* [Multibanco, MBWAY, Credit card, Payshop and Cofidis Pay for WooCommerce – PRO add-on](https://nakedcatplugins.com/product/multibanco-mbway-credit-card-payshop-ifthenpay-woocommerce-pro-add-on/) - Extra features for the plugin you already trust to receive payments on your WooCommerce store
-* [Simple Checkout Fields Manager for WooCommerce](https://nakedcatplugins.com/product/simple-custom-fields-for-woocommerce-blocks-checkout/) - Add custom fields and manage (remove, make required or optional) core fields on the new WooCommerce Block-based Checkout
+* [DPD Portugal for WooCommerce](https://nakedcatplugins.com/product/dpd-portugal-for-woocommerce/) - Create shipping and return labels in the DPD webservice directly from the WooCommerce order
+* [Feed KuantoKusta for WooCommerce](https://nakedcatplugins.com/product/feed-kuantokusta-for-woocommerce-pro/) - Publish your products on KuantoKusta with this easy to use feed generator
+* [Multibanco, MB WAY, Credit card, Apple Pay, Google Pay, Payshop, and PIX (ifthenpay) for WooCommerce – PRO add-on](https://nakedcatplugins.com/product/multibanco-mbway-credit-card-payshop-ifthenpay-woocommerce-pro-add-on/) - Extra features for the plugin you already trust to receive payments on your WooCommerce store
+* [Simple Checkout Fields Manager for WooCommerce](https://nakedcatplugins.com/product/simple-custom-fields-for-woocommerce-blocks-checkout/) - Add custom fields and manage (remove, make required or optional) core fields on the WooCommerce Block-based Checkout
 * [Simple WooCommerce Order Approval](https://nakedcatplugins.com/product/simple-woocommerce-order-approval/) - The hassle-free solution for WooCommerce order approval before payment
 * [Shop as Client for WooCommerce](https://nakedcatplugins.com/product/shop-as-client-for-woocommerce-pro-add-on/) - Quickly create orders on behalf of your customers
 * [Taxonomy/Term and Role based Discounts for WooCommerce](https://nakedcatplugins.com/product/taxonomy-term-and-role-based-discounts-for-woocommerce-pro-add-on/) - Easily create bulk discount rules for products based on any taxonomy terms (built-in or custom)
-* [DPD / SEUR / Geopost Pickup and Lockers network for WooCommerce](https://nakedcatplugins.com/product/dpd-seur-geopost-pickup-and-lockers-network-for-woocommerce/) - Deliver your WooCommerce orders on the DPD and SEUR Pickup network of Parcelshops and Lockers in 21 European countries
+* [DPD / Geopost Pickup and Lockers network for WooCommerce](https://nakedcatplugins.com/product/dpd-seur-geopost-pickup-and-lockers-network-for-woocommerce/) - Deliver your WooCommerce orders on the DPD, Chronopost, BRT, SEUR and PostNord Pickup network of Parcelshops and Lockers in 25 European countries
 
 == Installation ==
 
@@ -58,7 +58,7 @@ Use the included automatic install feature on your WordPress admin panel and sea
 
 == Frequently Asked Questions ==
 
-= After version 3.0.0 the Postcode and Postcode City are showing side by side on the checkout and I want it the way it was before. What do I revert it? =
+= After version 3.0.0 the Postcode and Postcode City are showing side by side on the checkout and I want it the way it was before. How do I revert it? =
 
 Add this to your (child) theme’s functions.php file:
 `add_filter( 'woocommerce_portugal_postcode_class', function( $class ) {
