@@ -68,11 +68,11 @@ add_filter( 'woocommerce_portugal_city_class', function( $class ) {
 	return array( 'form-row-wide' );
 });`
 
-= Is this plugin compatible with the new WooCommerce High-Performance Order Storage? =
+= Is this plugin compatible with the WooCommerce High-Performance Order Storage? =
 
 Yes.
 
-= Is this plugin compatible with the new WooCommerce block-based Cart and Checkout? =
+= Is this plugin compatible with the WooCommerce block-based Cart and Checkout? =
 
 Yes.
 
