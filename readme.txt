@@ -82,7 +82,7 @@ Apple and Google are not requesting the “Distrito” field in Apple Pay addres
 So, if you’re using these methods, we recommend you set your shipping zones with postcode intervals; for example, one zone for Portugal, restricted to postcodes 0000000...8999999, and another for the islands, restricted to 9000000...9999999.
 You can keep using this plugin, but the shipping zones should be set with postcodes.
 
-Alternatively, version 7.0 of our “[Portuguese Postcodes for WooCommerce](https://nakedcatplugins.com/product/portuguese-postcodes-for-woocommerce-technical-support/)” plugin, alongside “WooCommerce Stripe Payment Gateway” version 10.2.0 or above, fixes this.
+Alternatively, our “[Portuguese Postcodes for WooCommerce](https://nakedcatplugins.com/product/portuguese-postcodes-for-woocommerce-technical-support/)” plugin (7.0 or above), alongside “WooCommerce Stripe Payment Gateway” 10.2.0 or above, fixes this.
 
 Or you can use Apple Pay and Google Pay via the [ifthenpay gateway with our plugin](https://wordpress.org/plugins/multibanco-ifthen-software-gateway-for-woocommerce/), which fetches the address from the WooCommerce checkout.
 
